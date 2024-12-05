@@ -26,7 +26,7 @@ function App() {
 
   return (
     <MathJaxContext config={config}>
-      <Router>
+      <Router basename='/nanokugeln'>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
